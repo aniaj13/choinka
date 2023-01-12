@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settings > * {
+    margin: 5px;
+}
+
+#submitBtn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #85ee85;
+    border: 1px solid white;
+}
+#submitBtn:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
