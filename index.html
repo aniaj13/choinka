@@ -7,13 +7,15 @@
 </head>
 <body>
 <h1>Stwórz swoją choinkę!</h1>
-<form action="" class="settings">
+<form action="" class="settings" id="settings">
   <label for="number">Nadaj jej wysokość:</label>
   <input type="number" name="numberInput" id="number" placeholder="Wybierz wysokość choinki" min="3">
   <label for="text">Z czego ma być zbudowana?:</label>
   <input type="text" name="textInput" id="text" placeholder="Wybierz materiał" maxlength="1">
   <input type="submit" id="submitBtn" value="Stwórz moją choinkę!">
 </form>
+
+<div id="treeBox"></div>
 
 <script src="app.js"></script>
 </body>
