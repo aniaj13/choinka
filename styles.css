@@ -1,3 +1,7 @@
+html {
+    font-family: "Courier New", "sans-serif";
+}
+
 h1 {
     text-align: center;
 }
@@ -20,4 +24,9 @@ h1 {
 #submitBtn:hover {
     cursor: pointer;
     font-weight: bolder;
+}
+
+#treeBox {
+    margin: 30px auto;
+    width: fit-content;
 }
