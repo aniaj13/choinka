@@ -4,8 +4,6 @@ const submitBtn = document.getElementById('submitBtn');
 const form = document.getElementById('settings');
 const treeBox = document.getElementById('treeBox');
 
-
-
 function createTree() {
     treeBox.innerText = '';
     let symbol = textInput.value;
@@ -21,4 +19,5 @@ function createTree() {
 form.addEventListener('submit', function (e) {
         e.preventDefault();
         createTree();
+        form.reset();
     })
