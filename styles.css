@@ -29,4 +29,5 @@ h1 {
 #treeBox {
     margin: 30px auto;
     width: fit-content;
+    font-size: 20px;
 }
