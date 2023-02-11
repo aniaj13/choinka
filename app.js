@@ -7,10 +7,11 @@ function createTree() {
     treeBox.innerText = '';
     let symbol = textInput.value;
     let height = numberInput.valueAsNumber;
-    let tree = '';
+    let tree = '\u00A0'.repeat(height - 1) + '*\n';
     for (let i=1; i <= height; i++) {
         tree += '\u00A0'.repeat(height - i) + symbol.repeat(2 * i -1) + '\n';
     }
+    tree += '\u00A0'.repeat(height - 2) + '|_|';
     treeBox.innerText = tree;
     console.log(tree);
 }
