@@ -11,7 +11,11 @@ function createTree() {
     for (let i=1; i <= height; i++) {
         tree += '\u00A0'.repeat(height - i) + symbol.repeat(2 * i -1) + '\n';
     }
-    tree += '\u00A0'.repeat(height - 2) + '|_|';
+    if (height < 10) {
+        tree += '\u00A0'.repeat(height - 1) + '|';
+    } else {
+        tree += '\u00A0'.repeat(height - 2) + '|_|';
+    }
     treeBox.innerText = tree;
     console.log(tree);
 }
