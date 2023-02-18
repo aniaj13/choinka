@@ -5,6 +5,7 @@ html {
 h1 {
     text-align: center;
 }
+
 .settings {
     display: flex;
     flex-direction: column;
@@ -21,6 +22,7 @@ h1 {
     background-color: #85ee85;
     border: 1px solid white;
 }
+
 #submitBtn:hover {
     cursor: pointer;
     font-weight: bolder;
